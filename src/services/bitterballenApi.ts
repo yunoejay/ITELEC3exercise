@@ -46,7 +46,7 @@ const mockBitterballenData: BitterballenData = {
     "Deep fry until golden brown"
   ],
   image: "/images/bitterballen.jpg",
-  tags: ["Appetizer", "Deep-fried", "Beef", "Traditional", "Pub Food"]
+  tags: ["Appetizer", "Pub Food"]
 };
 
 export const fetchBitterballenData = async (): Promise<BitterballenData> => {

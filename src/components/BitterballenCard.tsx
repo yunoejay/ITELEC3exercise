@@ -73,7 +73,6 @@ const BitterballenCard: React.FC<BitterballenCardProps> = ({ data: propData }) =
           <p className="description">{data.description}</p>
           <div className="meta-info">
             <span className="origin"><img src="/images/nl-flag.png" alt="NL Flag" className="flag-icon" />Netherlands</span>
-            <span className="serving">👥 {data.servingSize}</span>
             <span className="time">⏱️ {data.preparationTime} + {data.cookingTime}</span>
             <span className="difficulty">📊 {data.difficulty}</span>
           </div>
